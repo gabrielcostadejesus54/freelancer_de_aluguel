@@ -1,0 +1,128 @@
+/* Configurações Gerais */
+@font-face {
+    font-family: manrope;
+    src: url('../fonts/Manrope/Manrope-Regular.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'manrope';
+}
+
+.context{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1280px;
+}
+/* ******** */
+
+/* header */
+
+
+header{
+    box-shadow: 0px 0px 10px 0 #cccccc;
+    padding: 20px 2%;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    background-color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header ul .login li:nth-of-type(2){
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+header ul .login li:nth-of-type(2) a{
+    display: block;
+    padding: 10px;
+}
+
+header ul .login li:nth-of-type(2):hover{
+    border: 1px solid #01A0DD;
+}
+
+header ul li a{
+    color: black;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+header ul li a:hover{
+    color: #01A0DD;
+
+}
+
+.fa-user{
+    font-size: 20px;
+    margin-right: 7px;
+}
+
+.fa-right-to-bracket{
+    font-size: 20px;
+    margin-right: 7px;
+}
+
+.menu-mobile{
+    display: none;
+}
+
+.menu-mobile ul{
+    box-shadow: 0px 3px 5px 0 #cccccc;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    display: block;
+    text-align: center;
+    top: 74px;
+    display: none;
+}
+
+.menu-mobile ul li{
+    display: block;
+}
+
+.menu-mobile ul li a{
+    padding: 5px 0;
+    display: block;
+}
+
+.menu-mobile .login li:nth-of-type(2){
+    display: inline-block;
+} 
+
+.menu-mobile .nav{
+    margin-top: 30px;
+}
+
+.menu-mobile .login{
+    margin:30px 0 15px 0;
+}
+
+.fa-bars, .fa-xmark{
+    font-size: 40px;
+    cursor: pointer;
+}
+
+/* ****** */
