@@ -16,6 +16,21 @@
     width: 100%;
     max-width: 1280px;
 }
+
+h2{
+    font-size: 40px;
+    color: #01A0DD;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.678);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
 /* ******** */
 
 /* header */
@@ -97,6 +112,7 @@ header ul li a:hover{
     text-align: center;
     top: 74px;
     display: none;
+    background-color: white;
 }
 
 .menu-mobile ul li{
@@ -125,4 +141,148 @@ header ul li a:hover{
     cursor: pointer;
 }
 
+/* ****** */
+
+/* seção intro */
+main{
+    padding-top: 84px;
+}
+
+.intro{
+    padding: 200px 2%;
+}
+
+.intro .text{
+    max-width: 700px;
+    width: 100%;
+}
+
+
+
+.intro .text p{
+    font-size: 18px;
+    line-height: 25px;
+}
+
+/* ****** */
+
+/* sobre */
+section.sobre{
+    background-image: url('../img/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 150px 2%;
+    background-attachment: fixed;
+}
+
+section.sobre .context{
+    position: relative;
+    text-align: justify;
+}
+
+.sobre p{
+    color: white;
+    line-height: 28px;
+}
+
+.sobre h2{
+    margin-bottom: 30px;
+}
+/* ****** */
+
+/* alguns serviços */
+.alguns-servicos{
+    padding: 100px 2%;
+}
+
+.alguns-servicos .wraper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.alguns-servicos .single i{
+    font-size: 40px;
+    color: #01A0DD;
+}
+
+
+.alguns-servicos .single{
+    box-shadow: 0px 20px 40px #2426721C;
+    padding: 30px;
+    width: 30%;
+}
+
+.alguns-servicos .single h3{
+    margin: 10px 0;
+}
+
+.alguns-servicos .single p{
+    color: gray;
+}
+/* ********** */
+
+/* contato */
+.contato{
+    padding: 0 2%;
+}
+
+.contato form{
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 30px 0;
+}
+
+.contato input{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 7px;
+    border-radius: 10px;
+    border: 1px solid #C3CCE8;
+    margin: 5px 0;
+}
+.contato textarea{
+    width: 100%;
+    height: 140px;
+    padding: 7px;
+    border-radius: 10px;
+    border: 1px solid #C3CCE8;
+    margin: 5px 0;
+    resize: none;
+}
+
+.contato h2{
+    text-align: center;
+}
+
+.contato button{
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 5px 0;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    background-color: #fab921;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.contato button:hover{
+    background-color: #d49e1f;
+}
+
+
+/* ******** */
+
+/* footer */
+footer{
+    background-color: #01A0DD;
+    padding: 20px 2%;
+    text-align: center;
+    color: white;
+}
 /* ****** */

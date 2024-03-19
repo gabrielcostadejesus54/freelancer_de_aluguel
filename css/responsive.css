@@ -6,4 +6,20 @@
     .menu-mobile{
         display: flex;
     }
+    
+    .alguns-servicos .wraper{
+        flex-wrap: wrap;
+    }
+ 
+    .alguns-servicos .single{
+        width: 49%;
+        margin-top: 10px;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .alguns-servicos .single{
+        width: 100%
+    }
 }
